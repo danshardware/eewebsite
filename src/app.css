@@ -98,6 +98,7 @@ h6 {
     --text-size: 16px;
 
     --background-color: hsl(var(--primary-color-h), calc(var(--secondary-color-s) * .2), 99%);
+    --sidebar-color: hsl(var(--primary-color-h), calc(var(--primary-color-s) * .2), 90%);
 }
 
 html {
@@ -129,6 +130,7 @@ h3 {
     :root {
         --text-color: hsl(var(--primary-color-h), calc(var(--primary-color-s) * .5), 80%);
         --background-color: hsl(var(--primary-color-h), calc(var(--primary-color-s) * .2), 10%);
+        --sidebar-color: hsl(var(--primary-color-h), calc(var(--primary-color-s) * .2), 20%);
     }
     html {
         background-color: var(--background-color);
